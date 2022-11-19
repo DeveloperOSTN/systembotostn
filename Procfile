@@ -1,1 +1,1 @@
-work: node Server.js
+work: node server.js
