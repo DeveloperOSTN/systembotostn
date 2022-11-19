@@ -53,9 +53,9 @@ client.on("ready", () => {
 client.on("ready", () => {
   console.log(`Logged in as ${client.user.tag}!`);
   console.log(client.guilds.map(c => `${c.name} : ${c.me.hasPermission(8)}`));
-  client.user.setStatus("online");
+  client.user.setStatus("dnd");
 
-  client.user.setActivity(`${prefix}help`, { type: "WATCHING" });
+  client.user.setActivity(`Developer OSTN on the top`, { type: "WATCHING" });
 });
 
 client.on("message", message => {
